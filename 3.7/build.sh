@@ -1,1 +1,1 @@
-podman build -t rndnet/python-bfj:latest -f Dockerfile
+podman build -t rndnet/python-bfj:apps -f Dockerfile
