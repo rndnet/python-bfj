@@ -1,1 +1,2 @@
-podman build -t rndnet/python-bfj:apps -f Dockerfile
+podman build -t docker.io/rndnet/python-bfj:apps -f Dockerfile
+
