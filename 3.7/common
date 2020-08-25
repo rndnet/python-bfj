@@ -1,0 +1,5 @@
+#VER=`date +"%Y-%m-%d_%H-%M-%S"`
+TAG=apps-service
+REP=docker.io/rndnet/python-bfj
+VER=`date +"%Y-%m-%d"`
+
