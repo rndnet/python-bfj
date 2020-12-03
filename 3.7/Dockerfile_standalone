@@ -8,7 +8,7 @@ RUN apt-get update &&  apt-get install -y wget libgl1 libglib2.0-0 libgssapi-krb
     pip install $(cat /requirements.txt | grep -iv pyqt | grep -v qscintilla) pyqt5 && \
     pip install --index-url https://server1.rndnet.net/static/simple bfj && \
     pip install --index-url https://server1.rndnet.net/static/simple rndnet-scheduler && \
-    pip install scipy audio2numpy cvxpy DateTime ecos imageio matplotlib numpy pandas Pillow sympy windrose sklearn lxml tqdm xlrd pydicom pylibjpeg minio
+    pip install scipy audio2numpy cvxpy DateTime ecos imageio matplotlib numpy pandas Pillow sympy windrose sklearn lxml tqdm xlrd pydicom pylibjpeg pylibjpeg-libjpeg pylibjpeg-openjpeg minio
 
 #ENTRYPOINT ["rndnet_scheduler", "--sched", "mp", "--pgpkey", "/opt/rndnet/secret.key"]
 
